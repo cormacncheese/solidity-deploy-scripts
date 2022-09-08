@@ -1,0 +1,36 @@
+{
+  "name": "solidity-deploy-scripts",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/hardhat-upgrades": "^1.14.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.7.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.8.4",
+    "ts-node": "^10.2.1",
+    "web3": "^1.5.2"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Cormac <cormacncheese@gmail.com>",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "console": "npx hardhat console",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "dotenv": "^16.0.0",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  }
+}
